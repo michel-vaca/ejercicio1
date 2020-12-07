@@ -84,4 +84,5 @@
     <string name="st2008">2008</string>
     <string name="st2009">2009</string>
     <string name="st2010">2010</string>
+    <string name="stEdad">"Age: "</string>
 </resources>

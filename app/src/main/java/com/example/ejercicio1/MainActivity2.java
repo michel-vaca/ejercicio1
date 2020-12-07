@@ -3,6 +3,7 @@ package com.example.ejercicio1;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.text.format.Time;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -15,6 +16,7 @@ TextView tvNumCuenta;
 TextView tvEdad;
 TextView tvCarrera;
 ImageView ivImagen;
+    int edad;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +32,7 @@ ImageView ivImagen;
         Alumno alumno;
 
         if(bundle != null){
+
             alumno = (Alumno) bundle.getSerializable("alumno" );
             //Toast.makeText( this, "el nombre " + alumno.getNombre() +" "+ alumno.getApellidos()+" numcuenta " +alumno.getNumCuenta(),Toast.LENGTH_SHORT ).show();
             // linea de arriba para probar que llega bien el nombre, los apellidos y ek num de cuenta
@@ -88,7 +91,33 @@ ImageView ivImagen;
                     break;
 
             }
+            int diaFechaNaci =Integer.parseInt(alumno.getFechaNaciDia());
+            int mesFechaNaci=Integer.parseInt(alumno.getFechaNaciMes());
+            int anoFechaNaci=Integer.parseInt(alumno.getFechaNaciAno());
 
+            Time  today= new Time (Time.getCurrentTimezone());
+            today.setToNow();
+            int diaFechaAct = today.monthDay;
+            int mesfechaAct= today.month;
+            int anofechanaAct= today.year;
+
+            /*if(mesFechaNaci<mesfechaAct){
+
+                edad= anofechanaAct-anoFechaNaci-1;
+
+
+
+            }
+            else if(mesFechaNaci==mesfechaAct){
+                if(diaFechaNaci<diaFechaAct)
+                    edad= anofechanaAct-anoFechaNaci-1;;
+            }
+
+            else{
+                edad=anoFechaNaci-anofechanaAct;
+            }*/
+            edad=anoFechaNaci-anofechanaAct;
+            tvEdad.setText(getResources().getString(R.string.stEdad)+ edad);
             //ivImagen.setImageResource(R.drawable.aeroespacial); //metodo comprobado para mostrar imagen
 
             
