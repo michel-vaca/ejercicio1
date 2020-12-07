@@ -4,9 +4,9 @@
     <string name="stApellidos">Apellidos</string>
     <string name="stNumCuenta">Numero de cuenta</string>
     <string name="stFechaNaci">Fecha de nacimiento:</string>
-    <string name="stFechaNaciDia">día</string>
-    <string name="stFechaNaciMes">mes</string>
-    <string name="stFechaNaciAno">año</string>
+    <string name="stFechaNaciDia">Día</string>
+    <string name="stFechaNaciMes">Mes</string>
+    <string name="stFechaNaciAno">Año</string>
     <string name="stCarrera">Carrera:</string>
     <string name="stGuardar">Guardar</string>
     <string name="stErrorNombre">Se requiere un nombre</string>

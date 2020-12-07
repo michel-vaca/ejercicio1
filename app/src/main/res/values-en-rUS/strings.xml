@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ejercicio1</string>
+    <string name="stNombre">Name</string>
+    <string name="stApellidos">Last Names</string>
+    <string name="stNumCuenta">Acount number</string>
+    <string name="stFechaNaci">Date of birth</string>
+    <string name="stFechaNaciDia">Day</string>
+    <string name="stFechaNaciMes">Month</string>
+    <string name="stFechaNaciAno">Year</string>
+    <string name="stCarrera">Carrer:</string>
+    <string name="stGuardar">Save</string>
+    <string name="stErrorNombre">A name is required</string>
+    <string name="stErrorApellidos">Is requiered your lasts names</string>
+    <string name="stErrorCarrera">You have to choose your carrer</string>
+    <string name="stErrorNumCuenta">A number of 9 digits is required</string>
+    <string name="stErrorFechaNaciDia">You have to choose the day that you born</string>
+    <string name="stErrorFechaNaciMes">You have to choose the month that you born</string>
+    <string name="stErrorFechaNaciAno">You have to choose the year you born</string>
+    <string name="stIngAeroesp">Aerospace Engineering</string>
+    <string name="stIngCiv">Civil Engineering</string>
+    <string name="stIngGeom">Geomatics Engineering</string>
+    <string name="stIngAmb">Ambiental Engineering</string>
+    <string name="stIngGeof">Geophysics Engineering</string>
+    <string name="stIngGeol">Geological Engineering</string>
+    <string name="stIngPetro">Oil Engineering</string>
+    <string name="stIngMinYMet">Mine and Metallurging Engineering</string>
+    <string name="stIngComp">Computing Engineering</string>
+    <string name="stIngEleEle">Electric and Electronics Engineering</string>
+    <string name="stIngTeleCom">Telecomunications Engineering</string>
+    <string name="stIngMecani">Mecanic Engineering</string>
+    <string name="stIngIndus">Industrial Engineering</string>
+    <string name="stIngMecatro">Mechatronic Engineering</string>
+    <string name="stIngSistBio">Biomedics Sistems Engineering</string>
+    <string name="st01">01</string>
+    <string name="st02">02</string>
+    <string name="st03">03</string>
+    <string name="st04">04</string>
+    <string name="st05">05</string>
+    <string name="st06">06</string>
+    <string name="st07">07</string>
+    <string name="st08">08</string>
+    <string name="st09">09</string>
+</resources>
