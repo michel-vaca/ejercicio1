@@ -17,7 +17,7 @@ TextView tvEdad;
 TextView tvCarrera;
 ImageView ivImagen;
     int edad;
-
+//
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
