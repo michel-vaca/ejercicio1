@@ -118,6 +118,7 @@ ImageView ivImagen;
             }*/
             edad=anoFechaNaci-anofechanaAct;
             //
+            //
             tvEdad.setText(getResources().getString(R.string.stEdad)+ edad);
             //ivImagen.setImageResource(R.drawable.aeroespacial); //metodo comprobado para mostrar imagen
 
